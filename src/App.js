@@ -19,7 +19,12 @@ function App() {
         text: 'Tandläkaren',
         day: 'Feb 6th at 1:30pm',
         reminder: false,
-    }
+    }, {
+      id: 3,
+      text: 'Träning',
+      day: 'Feb 9th at 3:30pm',
+      reminder: false,
+  }  
 ])
   // Delete Task
   const deleteTask = (id) => {
